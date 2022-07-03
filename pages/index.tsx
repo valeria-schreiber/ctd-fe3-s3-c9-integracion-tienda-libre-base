@@ -87,7 +87,7 @@ const Home: NextPage<IProps> = ({ data }) => {
 export async function getServerSideProps() {
   const baseUrl = process.env.DEV
     ? "http://localhost:3000/"
-    : "https://tienda-libre-example-sx92goki3-alazzuri.vercel.app";
+    : "https://tienda-libre-example-sx92goki3-alazzuri.vercel.app"; // Cambiar por la url del proyecto una vez deployada la API
 
   const response = await fetch(`${baseUrl}/api/products`);
 
