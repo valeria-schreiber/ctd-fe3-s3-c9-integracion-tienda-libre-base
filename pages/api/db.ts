@@ -92,7 +92,7 @@ export const products = [
   },
 ];
 
-export const terminosYCondiciones = {
+export const tycs = {
   version: "3 de julio, 2022",
   tycs: [
     {
