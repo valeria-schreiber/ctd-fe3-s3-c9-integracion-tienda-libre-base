@@ -1,3 +1,7 @@
+// Aquí encontramos la información que debemos retornar
+// en cada una de las rutas de nuestra API.
+
+// Para la ruta de productos destacados
 export const products = [
   {
     id: 1,
@@ -92,6 +96,7 @@ export const products = [
   },
 ];
 
+// Para la ruta de términos y condiciones
 export const tycs = {
   version: "3 de julio, 2022",
   tycs: [
